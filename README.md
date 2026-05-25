@@ -9,8 +9,6 @@
 
 # Hi, I'm Tri.
 
-I build modern fullstack web products with clear interfaces, reliable systems, and a strong sense for product details.
-
 <p>
   <a href="https://minhtrii31.dev">Portfolio</a>
   &nbsp;/&nbsp;
@@ -21,15 +19,11 @@ I build modern fullstack web products with clear interfaces, reliable systems, a
 
 </div>
 
-<br />
-
 ## About
 
 I'm a fullstack website developer based in Ho Chi Minh City. I like building useful web apps that feel simple on the surface and stay maintainable underneath.
 
 My work usually sits between product, interface, and system design: shaping flows, building components, designing APIs, and keeping the implementation clean enough to grow.
-
-<br />
 
 ## Stack
 
@@ -68,14 +62,6 @@ My work usually sits between product, interface, and system design: shaping flow
 &nbsp;
 <img src="https://cdn.simpleicons.org/vercel/7C7C7C" width="26" alt="Vercel" title="Vercel" />  
 <sub>Docker / GitHub Actions / Vercel</sub>
-
-<br />
-
----
-
-<p align="center">
-  <sub>Thoughtful interfaces. Reliable systems. Useful products.</sub>
-</p>
 
 <!--
 Assets structure:
