@@ -1,67 +1,56 @@
 <!--
   Design choices:
-  - Keeps the portfolio's minimal direction through quiet spacing, clean typography, and restrained icon rows.
-  - Softens the tone with a short "Hi, I'm Tri" introduction and less corporate section language.
-  - Avoids banner imagery, badge blocks, widget panels, and fixed-width tables so the README stays readable.
+  - Editorial minimalism with life: centered gallery of brand-colored icons, no rigid tables.
+  - Icons carry real brand colors via simpleicons; black-brand marks (Next.js, Express, shadcn, Vercel)
+    render in neutral gray so they stay visible on both light and dark GitHub themes.
+  - Toolkit is ONE contiguous HTML block with no blank lines, so vertical spacing is controlled only by
+    explicit <br /> (blank lines inside the block would render as large paragraph gaps on GitHub).
+  - Reliability first: every image comes from cdn.simpleicons.org (CDN-backed, no rate-limit cards).
 -->
 
 <div align="center">
 
-# Hi, I'm Tri.
+# Fullstack Web Developer
 
-<p>
-  <a href="https://minhtrii31.dev">Portfolio</a>
-  &nbsp;/&nbsp;
-  <a href="mailto:minhtri3101200@gmail.com">Email</a>
-  &nbsp;/&nbsp;
-  <a href="https://github.com/minhtrii31">GitHub</a>
-</p>
+<sub>Ho Chi Minh City, Vietnam</sub>
+
+<a href="https://minhtrii31.dev">Portfolio</a> &nbsp;·&nbsp; <a href="mailto:minhtri3101200@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://github.com/minhtrii31">GitHub</a>
 
 </div>
 
-## About
+---
 
-I'm a fullstack website developer based in Ho Chi Minh City. I like building useful web apps that feel simple on the surface and stay maintainable underneath.
+<div align="center">
+I build web applications that feel simple on the surface and stay maintainable underneath —<br />
+working across product, interface, and system design.
+</div>
 
-My work usually sits between product, interface, and system design: shaping flows, building components, designing APIs, and keeping the implementation clean enough to grow.
+<div align="center">
+<br /><br />
+<sub><b>F R O N T E N D</b></sub>
+<br /><br />
+<img src="https://cdn.simpleicons.org/nextdotjs/8B949E" height="36" alt="Next.js" title="Next.js" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/react/61DAFB" height="36" alt="React" title="React" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/typescript/3178C6" height="36" alt="TypeScript" title="TypeScript" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="36" alt="Tailwind CSS" title="Tailwind CSS" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/shadcnui/8B949E" height="36" alt="shadcn/ui" title="shadcn/ui" />
+<br /><br /><br />
+<sub><b>B A C K E N D</b></sub>
+<br /><br />
+<img src="https://cdn.simpleicons.org/nodedotjs/339933" height="36" alt="Node.js" title="Node.js" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/express/8B949E" height="36" alt="Express" title="Express" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/nestjs/E0234E" height="36" alt="NestJS" title="NestJS" />
+<br /><br /><br />
+<sub><b>D A T A</b></sub>
+<br /><br />
+<img src="https://cdn.simpleicons.org/mongodb/47A248" height="36" alt="MongoDB" title="MongoDB" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/postgresql/4169E1" height="36" alt="PostgreSQL" title="PostgreSQL" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/redis/FF4438" height="36" alt="Redis" title="Redis" />
+<br /><br /><br />
+<sub><b>O P S</b></sub>
+<br /><br />
+<img src="https://cdn.simpleicons.org/docker/2496ED" height="36" alt="Docker" title="Docker" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/githubactions/2088FF" height="36" alt="GitHub Actions" title="GitHub Actions" /> &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/vercel/8B949E" height="36" alt="Vercel" title="Vercel" />
+</div>
 
-## Stack
+---
 
-**Frontend**  
-<img src="https://cdn.simpleicons.org/nextdotjs/7C7C7C" width="26" alt="Next.js" title="Next.js" />
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="26" alt="React" title="React" />
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="26" alt="TypeScript" title="TypeScript" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/tailwindcss/38BDF8" width="26" alt="TailwindCSS" title="TailwindCSS" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/shadcnui/7C7C7C" width="26" alt="shadcn/ui" title="shadcn/ui" />  
-<sub>Next.js / React / TypeScript / TailwindCSS / shadcn/ui</sub>
-
-**Backend**  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="26" alt="Node.js" title="Node.js" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/express/7C7C7C" width="26" alt="Express" title="Express" />
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="26" alt="NestJS" title="NestJS" />  
-<sub>Node.js / Express / NestJS</sub>
-
-**Database**  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="26" alt="MongoDB" title="MongoDB" />
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="26" alt="PostgreSQL" title="PostgreSQL" />
-&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="26" alt="Redis" title="Redis" />  
-<sub>MongoDB / PostgreSQL / Redis</sub>
-
-**Tools**  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="26" alt="Docker" title="Docker" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/githubactions/2088FF" width="26" alt="GitHub Actions" title="GitHub Actions" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/vercel/7C7C7C" width="26" alt="Vercel" title="Vercel" />  
-<sub>Docker / GitHub Actions / Vercel</sub>
+<div align="center">
+<sub>Open to collaboration and interesting problems &nbsp;·&nbsp; <a href="mailto:minhtri3101200@gmail.com">minhtri3101200@gmail.com</a></sub>
+<br /><br />
+<sub><i>Simple on the surface. Maintainable underneath.</i></sub>
+</div>
 
 <!--
 Assets structure:
